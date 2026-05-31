@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.rating {
+  display: flex;
+  gap: 0.5rem;
+}
+h1{
+	position: fixed;
+	top: 40%;
+}
+.star {
+  font-size: 4rem;
+  color: gray;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s;
+}
+
+.star.active {
+  color: gold;
+}
